@@ -424,4 +424,9 @@ footer .box:nth-child(3) ul li{
         text-align: center;
         float: none;
     }
+
+    .productbox{
+        width: 100%;
+        
+    }
 }
