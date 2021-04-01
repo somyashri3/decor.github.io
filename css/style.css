@@ -141,7 +141,7 @@ nav .navbar a:hover{
     content:'';
     display:block;
     width:100%;
-    height:3px;
+    height:69px;
     background-image:url(../icons/shadow.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -258,7 +258,9 @@ header.hero button:first-child{
 .product-list{
     width: 100%;
     padding-top: 30px;
+    padding-bottom: 100px;
     padding-left: 100px;
+    float: center;
 }
 
 .productbox{
@@ -371,11 +373,9 @@ footer .box:nth-child(3) ul li{
 
     header.hero {
         margin-top:-4rem;
+        margin-right: 0;
     }
-    header.hero .hero-image{
-        right:-160px;
-        top:100px;
-    }
+
     .top-products .slider-btn{
         display:none!important;
     }
@@ -403,19 +403,22 @@ footer .box:nth-child(3) ul li{
 }
 
 @media( max-width:576px){
-    header.hero .hero-image{
-        right:-235px;
-        top:150px;
-    }
+  
     header.hero .container{
         padding-left:1rem;
     }
     header.hero{
-        margin-top:-3rem;
+        margin-top:-1rem;
+        margin-right: 0;
     }
 
 }
 @media only screen and (max-width:768px){
+    header.hero{
+        margin-top:-1rem;
+    }
+
+    
     .product{
         padding: 50px 50px;
         margin: 0;
@@ -424,9 +427,33 @@ footer .box:nth-child(3) ul li{
         text-align: center;
         float: none;
     }
+    .product-list{
+        padding-top: 30px;
+        padding-left: 0%;
+    }
 
     .productbox{
         width: 100%;
-        
+        margin: 25px 0;
+    }
+    .about h1{
+        text-align: center;
+    }
+    .about .left-box{
+        width: 100%;
+        padding: 0 10px;
+        margin-bottom: 50px;
+    }
+    .about .right-box{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .left .right{
+        width: 100%;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .right{
+        padding: 20px 10px;
     }
 }
